@@ -3,6 +3,6 @@ This repository contains crisp notes for DBMS and SQL required for a Software De
 
 Topics:
 1. Introduction to DBMS
-    1.1. What are Database and DBMS?
-    1.2. Types of Database and their advantages
-    1.3. Keys
+    - What are Database and DBMS? 
+    - Types of Database and their advantages
+    - Keys
