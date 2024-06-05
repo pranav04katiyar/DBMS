@@ -13,7 +13,7 @@ When the databases are represented as multiple related tables, they are called R
    - Hence it is recommended to not rely on the order of either.
    - If you need to retrieve data in a specific order, you should use the ORDER BY clause.
 
-### Advantages of Relational Databases
+### _Advantages of Relational Databases_
 - **Data Integrity**: The data is consistent and accurate.
 - **Data Normalization**: Data is normalized to reduce redundancy and improve data integrity.
 - **Data Security**: Access to data can be controlled.
@@ -29,7 +29,7 @@ Non-relational databases are databases that do not use the relational model. The
 - They are used in scenarios where the data is not structured or when the data is not relational.
 - Examples of non-relational databases include MongoDB, Cassandra, and Redis.
 
-### Advantages of Non-Relational Databases
+### _Advantages of Non-Relational Databases_
 - **Scalability**: Non-relational databases can scale horizontally.
 - **Flexibility**: Non-relational databases can store unstructured data.
 - **Performance**: Non-relational databases can handle large amounts of data.
