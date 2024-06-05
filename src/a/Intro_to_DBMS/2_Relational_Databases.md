@@ -3,7 +3,7 @@
 When the databases are represented as multiple related tables, they are called Relational Databases.
 - Each row represents a record and each column represents a field.
 
-## Properties of Relational Databases
+#### _Properties of Relational Databases_
 1. Each table stores some information, either about an entity or a relationship between entities.
 2. Each row is unique. No two rows can be identical.
 3. Each column has a unique name. No two columns can have the same name.
@@ -13,7 +13,7 @@ When the databases are represented as multiple related tables, they are called R
    - Hence it is recommended to not rely on the order of either.
    - If you need to retrieve data in a specific order, you should use the ORDER BY clause.
 
-### _Advantages of Relational Databases_
+#### _Advantages of Relational Databases_
 - **Data Integrity**: The data is consistent and accurate.
 - **Data Normalization**: Data is normalized to reduce redundancy and improve data integrity.
 - **Data Security**: Access to data can be controlled.
@@ -29,7 +29,7 @@ Non-relational databases are databases that do not use the relational model. The
 - They are used in scenarios where the data is not structured or when the data is not relational.
 - Examples of non-relational databases include MongoDB, Cassandra, and Redis.
 
-### _Advantages of Non-Relational Databases_
+#### _Advantages of Non-Relational Databases_
 - **Scalability**: Non-relational databases can scale horizontally.
 - **Flexibility**: Non-relational databases can store unstructured data.
 - **Performance**: Non-relational databases can handle large amounts of data.
