@@ -39,3 +39,9 @@ Non-relational databases are databases that do not use the relational model. The
 - **Schema-less**: Non-relational databases do not require a schema.
 
 ## Keys in Relational Databases
+Keys are the most important part of a relational database. 
+Keys are primarily used to: 
+1. uniquely identify a row in a table: `Primary Key`, `Super Key` and `Candidate Key`
+2. establish and identify relationships between tables: `Foreign Key` and `Composite Key`.
+Among these, the `Primary Key` and `Foreign Key` are the most important keys.
+
