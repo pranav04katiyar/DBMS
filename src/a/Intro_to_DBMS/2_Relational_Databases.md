@@ -59,3 +59,15 @@ A Candidate Key is a minimal Super Key, i.e., a combination of the least/minimum
 - Candidate Key is a subset of Super Key, i.e. A Candidate Key can be a Super Key but not all Super Keys are Candidate Keys.
 - A table can have multiple Candidate Keys.
 - All columns in a Candidate Key are required to be unique.
+
+#### Primary Key
+Primary Key is a Candidate Key that is chosen as the main key for a table.
+- A table can have only one Primary Key.
+- A Primary Key cannot have NULL values.
+- A Primary Key is unique and not repeated.
+
+#### Foreign Key
+A Foreign Key is a column or a combination of columns in a table that is used to establish a link between two tables.
+- A Foreign Key is a Primary Key in another table.
+- A Foreign Key can have NULL values.
+- A Foreign Key can have duplicate values.
