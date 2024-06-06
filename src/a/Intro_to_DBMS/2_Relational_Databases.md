@@ -45,3 +45,17 @@ Keys are primarily used to:
 2. establish and identify relationships between tables: `Foreign Key` and `Composite Key`.
 Among these, the `Primary Key` and `Foreign Key` are the most important keys.
 
+The best way to understand these are in the following ways:
+**Super Key > Candidate Key > Primary Key > Foreign Key**
+
+#### Super Key
+Any combination of columns which uniquely identifies a row in a table is called a Super Key.
+- A Super Key may contain more columns than required to uniquely identify a row.
+- We can have multiple Super Keys in a table.
+- Not all columns in a Super Key are required to be unique.
+
+#### Candidate Key
+A Candidate Key is a minimal Super Key, i.e., a combination of the least/minimum number of columns required to identify a row uniquely.
+- Candidate Key is a subset of Super Key, i.e. A Candidate Key can be a Super Key but not all Super Keys are Candidate Keys.
+- A table can have multiple Candidate Keys.
+- All columns in a Candidate Key are required to be unique.
